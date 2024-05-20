@@ -1,5 +1,6 @@
 package com.lotte.carmidapi.model.request;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -7,6 +8,7 @@ import java.util.List;
 
 @Getter
 public class CoreData {
+    @JsonProperty("Long")
     private long Long;
     private AccelSet accelSet;
     private Accuracy accuracy;

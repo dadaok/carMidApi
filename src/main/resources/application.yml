@@ -3,7 +3,6 @@ spring:
   profiles:
     default: local
 
-
 ---
 
 spring:
@@ -11,6 +10,17 @@ spring:
     active: local
   kafka:
     producer:
-      bootstrap-servers: 172.30.1.77:9092, 172.30.1.77:9093, 172.30.1.77:9094
+      bootstrap-servers: 172.30.1.77:19092, 172.30.1.77:19093, 172.30.1.77:19094
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+---
+
+spring:
+  profiles:
+    active: dev
+  kafka:
+    producer:
+      bootstrap-servers: 175.197.31.175:9092, 175.197.31.175:9093, 175.197.31.175:9094
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
