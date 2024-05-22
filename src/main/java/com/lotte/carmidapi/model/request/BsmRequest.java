@@ -6,5 +6,5 @@ import lombok.Getter;
 @Getter
 public class BsmRequest {
     @JsonProperty("BasicSafetyMessage")
-    private BasicSafetyMessage BasicSafetyMessage;
+    private BasicSafetyMessage basicSafetyMessage;
 }
