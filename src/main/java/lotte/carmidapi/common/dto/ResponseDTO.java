@@ -1,4 +1,4 @@
-package com.lotte.carmidapi.common.dto;
+package lotte.carmidapi.common.dto;
 
 import lombok.AccessLevel;
 import lombok.Builder;

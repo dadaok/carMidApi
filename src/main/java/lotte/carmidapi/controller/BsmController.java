@@ -1,8 +1,8 @@
-package com.lotte.carmidapi.controller;
+package lotte.carmidapi.controller;
 
-import com.lotte.carmidapi.common.dto.ResponseDTO;
-import com.lotte.carmidapi.model.request.BsmRequest;
-import com.lotte.carmidapi.service.BsmService;
+import lotte.carmidapi.common.dto.ResponseDTO;
+import lotte.carmidapi.model.request.BsmRequest;
+import lotte.carmidapi.service.BsmService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.lotte.carmidapi.common;
+package lotte.carmidapi.common;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.cfg.MapperConfig;

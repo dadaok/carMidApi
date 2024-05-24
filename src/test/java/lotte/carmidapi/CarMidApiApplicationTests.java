@@ -1,4 +1,4 @@
-package com.lotte.carmidapi;
+package lotte.carmidapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

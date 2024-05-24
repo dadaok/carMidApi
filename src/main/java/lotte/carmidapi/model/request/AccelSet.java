@@ -1,7 +1,7 @@
-package com.lotte.carmidapi.model.request;
+package lotte.carmidapi.model.request;
 
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.lotte.carmidapi.common.AsIsPropertyNamingStrategy;
+import lotte.carmidapi.common.AsIsPropertyNamingStrategy;
 import lombok.Getter;
 
 @Getter
