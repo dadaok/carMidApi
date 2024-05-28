@@ -1,13 +1,13 @@
-#??
-spring:
-  profiles:
-    default: local
-
----
-
 spring:
   profiles:
     active: local
+server:
+  port: 8081
+---
+spring:
+  config:
+    activate:
+      on-profile: local
   kafka:
     producer:
       bootstrap-servers: 172.30.1.77:19092, 172.30.1.77:19093, 172.30.1.77:19094
@@ -15,10 +15,10 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 
 ---
-
 spring:
-  profiles:
-    active: dev
+  config:
+    activate:
+      on-profile: dev
   kafka:
     producer:
       bootstrap-servers: 175.197.31.175:9092, 175.197.31.175:9093, 175.197.31.175:9094

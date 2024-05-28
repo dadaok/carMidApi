@@ -6,5 +6,5 @@ import lombok.Getter;
 @Getter
 public class BasicSafetyMessage {
     @JsonProperty("CoreData")
-    private CoreData CoreData;
+    private CoreData coreData;
 }
