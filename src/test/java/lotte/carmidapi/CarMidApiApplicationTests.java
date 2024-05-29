@@ -9,5 +9,4 @@ class CarMidApiApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
