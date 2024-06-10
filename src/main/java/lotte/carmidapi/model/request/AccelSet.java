@@ -16,5 +16,6 @@ public class AccelSet {
     private int lat;
     @Schema(example = "17")
     private int vert;
-    @Schema(example = "18")    private int yaw;
+    @Schema(example = "18")
+    private int yaw;
 }
