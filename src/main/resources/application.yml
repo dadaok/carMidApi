@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name: car
+      name: car-service-common
   config:
     import: optional:configserver:http://127.0.0.1:8888/
   profiles:
